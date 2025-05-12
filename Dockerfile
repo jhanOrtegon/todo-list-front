@@ -5,7 +5,7 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Copia solo los archivos de dependencias primero
-COPY package.json yarn.lock ./
+COPY package.json ./
 
 # Instala las dependencias dentro del contenedor
 RUN yarn install
