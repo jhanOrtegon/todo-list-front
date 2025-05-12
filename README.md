@@ -45,7 +45,7 @@ Esto levanta automáticamente el contenedor con todo configurado.
 
 ```bash
 git clone https://github.com/jhanOrtegon/todo-list-front.git
-cd todo-list
+cd todo-list-front
 ```
 
 2. Instala las dependencias:
