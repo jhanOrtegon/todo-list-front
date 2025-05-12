@@ -22,7 +22,10 @@ API.interceptors.response.use(
 			console.warn("Sesión expirada o inválida")
 			localStorage.removeItem("token")
 			localStorage.removeItem("user")
-			window.location.href = "/"
+
+			if (!["/login", "/"].includes(window.location.pathname)) {
+				window.location.href = "/"
+			}
 		}
 		return Promise.reject(error)
 	},
