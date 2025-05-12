@@ -44,7 +44,7 @@ Esto levanta automáticamente el contenedor con todo configurado.
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/todo-list.git
+git clone https://github.com/jhanOrtegon/todo-list-front.git
 cd todo-list
 ```
 
